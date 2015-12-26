@@ -1,0 +1,911 @@
+﻿<Window x:Class="VendingMachineSimulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="Vending Machine"
+        Width="1057"
+        Height="766.567"
+        Background="#FF171717"
+        DataContext="{Binding}"
+        FontFamily="Georgia"
+        FontSize="18"
+        FontWeight="Bold"
+        Foreground="Gray"
+        Icon="/VendingMachineSimulator;component/Images/Time-machine.ico"
+        Loaded="Window_Loaded"
+        ResizeMode="NoResize"
+        mc:Ignorable="d">
+    <Grid Height="778"
+          Margin="0,0,9,-40"
+          Background="#FF171717">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="18*" />
+            <RowDefinition Height="22*" />
+            <RowDefinition Height="91*" />
+            <RowDefinition Height="647*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="139*" />
+            <ColumnDefinition Width="71*" />
+            <ColumnDefinition Width="514*" />
+            <ColumnDefinition Width="309*" />
+        </Grid.ColumnDefinitions>
+        <Rectangle x:Name="rectangle1"
+                   Grid.RowSpan="4"
+                   Grid.ColumnSpan="4"
+                   Margin="12,12,9,27"
+                   Fill="#FF691919"
+                   RadiusX="10"
+                   RadiusY="10"
+                   Stroke="White" />
+        <Image x:Name="image1"
+               Grid.RowSpan="4"
+               Grid.ColumnSpan="2"
+               Width="200"
+               Height="150"
+               Margin="10,10,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               ImageFailed="image1_ImageFailed"
+               Stretch="Fill" />
+        <Rectangle Grid.Row="1"
+                   Grid.RowSpan="3"
+                   Grid.Column="2"
+                   Grid.ColumnSpan="2"
+                   Width="119"
+                   Height="711"
+                   Margin="0,6,207,0"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Top"
+                   FlowDirection="RightToLeft"
+                   RadiusX="10"
+                   RadiusY="10"
+                   Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                    <GradientStop Offset="0.028" Color="Black" />
+                    <GradientStop Offset="1" Color="#FFCACACA" />
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="0.042" Color="Black" />
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="0.076" Color="Black" />
+                    <GradientStop Offset="0.028" Color="#FF262626" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="1"
+                   Grid.RowSpan="3"
+                   Grid.Column="2"
+                   Height="711"
+                   Margin="490.866,6,8,0"
+                   VerticalAlignment="Top"
+                   Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="1" Color="White" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Border x:Name="border2"
+                Grid.Row="1"
+                Grid.RowSpan="3"
+                Grid.Column="3"
+                Width="178"
+                Height="179"
+                Margin="0,6,21,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Background="#FF79764E"
+                BorderBrush="White"
+                BorderThickness="4"
+                CornerRadius="10">
+            <TextBlock x:Name="txtDisplay"
+                       Width="156"
+                       Height="176"
+                       Margin="6.5,7"
+                       Background="#FF93A276"
+                       FontFamily="Cambria"
+                       FontSize="14"
+                       FontWeight="Normal"
+                       Foreground="White"
+                       Text="OUT OF ORDER" />
+        </Border>
+        <Path Grid.Row="2"
+              Width="1"
+              Height="1"
+              Margin="-68,0,0,0"
+              HorizontalAlignment="Left"
+              VerticalAlignment="Top"
+              Data="M80,40"
+              Fill="#FFF4F4F5"
+              Stretch="Fill"
+              Stroke="Black" />
+        <Rectangle Grid.Row="2"
+                   Grid.RowSpan="2"
+                   Grid.ColumnSpan="2"
+                   Width="148"
+                   Height="171"
+                   Margin="55,0,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Fill="Black"
+                   Stroke="Black" />
+        <Image x:Name="imgDrink1"
+               Grid.Row="2"
+               Grid.RowSpan="2"
+               Grid.ColumnSpan="2"
+               Width="91"
+               Height="151"
+               Margin="79,12,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Stretch="Fill" />
+        <Rectangle Grid.Row="2"
+                   Grid.RowSpan="2"
+                   Grid.Column="2"
+                   Width="148"
+                   Height="171"
+                   Margin="75.866,0,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Fill="Black"
+                   Stroke="Black" />
+        <Rectangle Grid.Row="2"
+                   Grid.RowSpan="2"
+                   Grid.Column="2"
+                   Width="148"
+                   Height="171"
+                   Margin="292.866,2,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Fill="Black"
+                   Stroke="Black" />
+        <Image x:Name="imgDrink2"
+               Grid.Row="2"
+               Grid.RowSpan="2"
+               Grid.Column="2"
+               Width="91"
+               Height="151"
+               Margin="101.866,12,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               ImageFailed="imgDrink2_ImageFailed"
+               Stretch="Fill" />
+        <Image x:Name="imgDrink3"
+               Grid.Row="2"
+               Grid.RowSpan="2"
+               Grid.Column="2"
+               Width="91"
+               Height="151"
+               Margin="319.866,12,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Stretch="Fill" />
+        <Rectangle Grid.Row="3"
+                   Grid.ColumnSpan="3"
+                   Height="8"
+                   Margin="22,86,28,0"
+                   VerticalAlignment="Top"
+                   Fill="#FF293955"
+                   Stroke="Black" />
+        <Rectangle Grid.Row="3"
+                   Grid.ColumnSpan="3"
+                   Height="8"
+                   Margin="22,292,28,0"
+                   VerticalAlignment="Top"
+                   Fill="#FF2D3E5B"
+                   Stroke="Black" />
+        <Rectangle Grid.Row="3"
+                   Grid.ColumnSpan="2"
+                   Width="148"
+                   Height="171"
+                   Margin="56,107,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Fill="Black"
+                   Stroke="Black" />
+        <Rectangle Grid.Row="3"
+                   Grid.ColumnSpan="3"
+                   Height="145"
+                   Margin="19,0,31,129"
+                   VerticalAlignment="Bottom"
+                   FlowDirection="LeftToRight"
+                   RadiusX="10"
+                   RadiusY="10"
+                   Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="1" Color="White" />
+                    <GradientStop Offset="0.994" Color="#FFD2BCBC" />
+                    <GradientStop Offset="0" Color="#FF181212" />
+                    <GradientStop Offset="0" Color="#FF2D2222" />
+                    <GradientStop Offset="0" Color="#FF372A2A" />
+                    <GradientStop Offset="0.006" Color="#FE463838" />
+                    <GradientStop Offset="0.017" Color="#FE574848" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="label8"
+               Grid.Row="3"
+               Height="24"
+               Margin="110,77,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Background="White"
+               BorderBrush="Black"
+               BorderThickness="1"
+               Content="#1"
+               FontSize="12"
+               FontWeight="Bold"
+               Foreground="Black"
+               Padding="5,2">
+            <Label.Effect>
+                <DropShadowEffect />
+            </Label.Effect>
+        </Label>
+        <Label x:Name="label8_Copy2"
+               Grid.Row="3"
+               Height="22"
+               Margin="110,278,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Background="White"
+               BorderBrush="Black"
+               BorderThickness="1"
+               Content="#4"
+               FontSize="12"
+               FontWeight="Bold"
+               Foreground="Black"
+               Padding="5,2">
+            <Label.Effect>
+                <DropShadowEffect />
+            </Label.Effect>
+        </Label>
+        <Image x:Name="imgDrink4"
+               Grid.Row="3"
+               Grid.ColumnSpan="2"
+               Width="91"
+               Height="151"
+               Margin="80,113,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Stretch="Fill" />
+        <ListBox x:Name="lbRefund"
+                 Grid.Row="3"
+                 Grid.ColumnSpan="3"
+                 Height="99"
+                 Margin="39,0,34,145"
+                 VerticalAlignment="Bottom">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Image Height="47"
+                           Margin="1,0,0,0"
+                           Source="{Binding}" />
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal" />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+        </ListBox>
+        <Rectangle Grid.Row="3"
+                   Grid.ColumnSpan="3"
+                   Width="675"
+                   Height="85"
+                   Margin="0,522,31,0"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Top"
+                   FlowDirection="RightToLeft"
+                   RadiusX="10"
+                   RadiusY="10"
+                   Stroke="Black">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                    <GradientStop Offset="0.028" Color="Black" />
+                    <GradientStop Offset="1" Color="#FFCACACA" />
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="0.042" Color="Black" />
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="0.076" Color="Black" />
+                    <GradientStop Offset="0.028" Color="#FF262626" />
+                    <GradientStop Offset="0" Color="#FF4A4A4A" />
+                    <GradientStop Color="#FF4A4A4A" />
+                    <GradientStop Offset="0" Color="#FE4D4D4D" />
+                    <GradientStop Offset="0" Color="#FF656565" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Button x:Name="btnPay5"
+                Grid.Row="3"
+                Width="53"
+                Height="53"
+                Margin="39,0,0,57"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                BorderBrush="{x:Null}"
+                Click="btnPay5_Click"
+                Foreground="{x:Null}">
+            <Image Source="/VendingMachineSimulator;component/Images/5pence.png" />
+        </Button>
+        <Button x:Name="btnPay10"
+                Grid.Row="3"
+                Grid.ColumnSpan="2"
+                Width="53"
+                Height="53"
+                Margin="110,0,0,55"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                BorderBrush="{x:Null}"
+                Click="btnPay10_Click"
+                Foreground="{x:Null}">
+            <Image ImageFailed="Image_ImageFailed" Source="/VendingMachineSimulator;component/Images/10pence.png" />
+        </Button>
+        <Rectangle x:Name="rectangle2"
+                   Grid.Row="3"
+                   Grid.Column="1"
+                   Grid.ColumnSpan="2"
+                   Width="441.612"
+                   Height="62"
+                   Margin="40.254,305.014,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   RadiusX="15"
+                   RadiusY="15"
+                   Stroke="#FF4C6C6C"
+                   StrokeThickness="5" />
+        <Button x:Name="btnPay20"
+                Grid.Row="3"
+                Grid.Column="1"
+                Grid.ColumnSpan="2"
+                Width="53"
+                Height="53"
+                Margin="42.254,0,0,55"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                BorderBrush="{x:Null}"
+                Click="btnPay20_Click"
+                Foreground="{x:Null}">
+            <Image Source="/VendingMachineSimulator;component/Images/20pence.png" />
+        </Button>
+        <Label x:Name="label1"
+               Grid.Row="3"
+               Grid.Column="1"
+               Grid.ColumnSpan="2"
+               Width="410.925"
+               Height="62"
+               Margin="57.499,309,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Background="#00000000"
+               Content="Vending Machine"
+               FontFamily="Georgia"
+               FontSize="40"
+               ForceCursor="False"
+               Foreground="#FF4E4E4E" />
+        <Rectangle Grid.Row="3"
+                   Grid.Column="2"
+                   Width="148"
+                   Height="171"
+                   Margin="75.866,106,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Fill="Black"
+                   Stroke="Black" />
+        <Rectangle Grid.Row="3"
+                   Grid.Column="2"
+                   Width="148"
+                   Height="171"
+                   Margin="292.866,106,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Fill="Black"
+                   Stroke="Black" />
+        <TextBlock Grid.Row="3"
+                   Grid.Column="2"
+                   Width="212"
+                   Height="26"
+                   Margin="75.866,0,0,248"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Bottom"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   Foreground="White"
+                   Text="CHANGE/REFUND"
+                   TextWrapping="Wrap" />
+        <Label x:Name="label8_Copy"
+               Grid.Row="3"
+               Grid.Column="2"
+               Height="24"
+               Margin="133.866,77,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Background="White"
+               BorderBrush="Black"
+               BorderThickness="1"
+               Content="#2"
+               FontSize="12"
+               FontWeight="Bold"
+               Foreground="Black"
+               Padding="5,2">
+            <Label.Effect>
+                <DropShadowEffect />
+            </Label.Effect>
+        </Label>
+        <Label x:Name="label8_Copy1"
+               Grid.Row="3"
+               Grid.Column="2"
+               Height="24"
+               Margin="353.866,77,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Background="White"
+               BorderBrush="Black"
+               BorderThickness="1"
+               Content="#3"
+               FontSize="12"
+               FontWeight="Bold"
+               Foreground="Black"
+               Padding="5,2">
+            <Label.Effect>
+                <DropShadowEffect />
+            </Label.Effect>
+        </Label>
+        <Label x:Name="label8_Copy3"
+               Grid.Row="3"
+               Grid.Column="2"
+               Height="23"
+               Margin="133.866,277,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Background="White"
+               BorderBrush="Black"
+               BorderThickness="1"
+               Content="#5"
+               FontSize="12"
+               FontWeight="Bold"
+               Foreground="Black"
+               Padding="5,2">
+            <Label.Effect>
+                <DropShadowEffect />
+            </Label.Effect>
+        </Label>
+        <Label x:Name="label8_Copy4"
+               Grid.Row="3"
+               Grid.Column="2"
+               Height="23"
+               Margin="353.866,277,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Background="White"
+               BorderBrush="Black"
+               BorderThickness="1"
+               Content="#6"
+               FontSize="12"
+               FontWeight="Bold"
+               Foreground="Black"
+               Padding="5,2">
+            <Label.Effect>
+                <DropShadowEffect />
+            </Label.Effect>
+        </Label>
+        <Image x:Name="imgDrink5"
+               Grid.Row="3"
+               Grid.Column="2"
+               Width="91"
+               Height="151"
+               Margin="101.866,113,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Stretch="Fill" />
+        <Image x:Name="imgDrink6"
+               Grid.Row="3"
+               Grid.Column="2"
+               Width="91"
+               Height="151"
+               Margin="319.866,113,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Stretch="Fill" />
+        <Button x:Name="btnPay50"
+                Grid.Row="3"
+                Grid.Column="2"
+                Width="53"
+                Height="53"
+                Margin="42.866,0,0,56"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                BorderBrush="{x:Null}"
+                Click="btnPay50_Click"
+                Foreground="{x:Null}">
+            <Image Source="/VendingMachineSimulator;component/Images/50pence.png" />
+        </Button>
+        <Button x:Name="btnPay100"
+                Grid.Row="3"
+                Grid.Column="2"
+                Width="53"
+                Height="53"
+                Margin="114.866,0,0,57"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                BorderBrush="{x:Null}"
+                Click="btnPay100_Click"
+                Foreground="{x:Null}">
+            <Image Source="/VendingMachineSimulator;component/Images/1pound.png" />
+        </Button>
+        <Button x:Name="btnPay200"
+                Grid.Row="3"
+                Grid.Column="2"
+                Width="53"
+                Height="53"
+                Margin="184.866,0,0,55"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                BorderBrush="{x:Null}"
+                Click="btnPay200_Click"
+                Foreground="{x:Null}">
+            <Image Source="/VendingMachineSimulator;component/Images/2pounds.png" />
+        </Button>
+        <Button x:Name="btnPay500"
+                Grid.Row="3"
+                Grid.Column="2"
+                Width="104"
+                Height="53"
+                Margin="259.866,0,0,55"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                BorderBrush="{x:Null}"
+                Click="btnPay500_Click"
+                Foreground="{x:Null}">
+            <Image Source="/VendingMachineSimulator;component/Images/5pounds.png" />
+        </Button>
+        <Button x:Name="btnPay1000"
+                Grid.Row="3"
+                Grid.Column="2"
+                Width="104"
+                Height="53"
+                Margin="376.866,0,0,53"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                BorderBrush="{x:Null}"
+                Click="btnPay1000_Click"
+                Foreground="{x:Null}">
+            <Image Source="/VendingMachineSimulator;component/Images/10pounds.png" />
+        </Button>
+        <Rectangle Grid.Row="3"
+                   Grid.Column="3"
+                   Width="178"
+                   Height="238"
+                   Margin="0,0,21,43"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Bottom"
+                   RadiusX="10"
+                   RadiusY="10"
+                   Stroke="White"
+                   StrokeThickness="3">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="1" Color="#FF9AAA7C" />
+                    <GradientStop Offset="0" Color="#FF434A36" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="3"
+                   Grid.Column="3"
+                   Width="178"
+                   Height="96"
+                   Margin="0,77,20,0"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Top"
+                   RadiusX="10"
+                   RadiusY="10"
+                   Stroke="White"
+                   StrokeThickness="3">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="1" Color="White" />
+                    <GradientStop Offset="0.007" Color="#FF363D3B" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Grid.Row="3"
+                   Grid.Column="3"
+                   Width="87"
+                   Height="32"
+                   Margin="0,176,110,0"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Top"
+                   Fill="#FFF7EBEB"
+                   RadiusX="10"
+                   RadiusY="10"
+                   Stroke="Black" />
+        <Canvas Grid.Row="3"
+                Grid.Column="3"
+                Width="45"
+                Height="21"
+                Margin="0,182,40,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top">
+            <Rectangle Canvas.Left="15"
+                       Canvas.Top="-7"
+                       Width="50"
+                       Height="32"
+                       Fill="#FFEBEBEB"
+                       RadiusX="10"
+                       RadiusY="10"
+                       Stroke="Black" />
+            <Rectangle Canvas.Left="32"
+                       Canvas.Top="-7"
+                       Width="17"
+                       Height="32"
+                       Fill="#FF8D5151"
+                       RadiusX="5"
+                       RadiusY="5"
+                       Stroke="Black"
+                       StrokeThickness="3" />
+        </Canvas>
+        <Rectangle Grid.Row="3"
+                   Grid.Column="3"
+                   Width="73"
+                   Height="28"
+                   Margin="0,178,119,0"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Top"
+                   Fill="#FFA09898"
+                   RadiusX="5"
+                   RadiusY="5"
+                   Stroke="Black" />
+        <TextBlock Grid.Row="3"
+                   Grid.Column="3"
+                   Width="79"
+                   Height="31"
+                   Margin="0,177,111,0"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Top"
+                   DataContext="{Binding}"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   Foreground="#FFF9F9F9"
+                   Text="Coins-&gt;"
+                   TextWrapping="Wrap" />
+        <TextBlock Grid.Row="3"
+                   Grid.Column="3"
+                   Width="65"
+                   Height="36"
+                   Margin="0,0,74,234"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Bottom"
+                   FontSize="20"
+                   FontWeight="Bold"
+                   Foreground="WhiteSmoke"
+                   Text="PULL"
+                   TextWrapping="Wrap" />
+        <Button x:Name="btnGet1"
+                Grid.Row="3"
+                Grid.Column="3"
+                Width="52"
+                Height="35"
+                Margin="0,87,136,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Background="{x:Null}"
+                Click="btnGet1_Click"
+                Content="#1"
+                Tag="1" />
+        <Button x:Name="btnGet2"
+                Grid.Row="3"
+                Grid.Column="3"
+                Width="43"
+                Height="35"
+                Margin="0,87,88,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Background="{x:Null}"
+                Click="btnGet1_Click"
+                Content="#2"
+                RenderTransformOrigin="1.455,0.478"
+                Tag="2" />
+        <Button x:Name="btnGet3"
+                Grid.Row="3"
+                Grid.Column="3"
+                Width="52"
+                Height="35"
+                Margin="0,87,33,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Background="{x:Null}"
+                Click="btnGet1_Click"
+                Content="#3"
+                Tag="3" />
+        <Button x:Name="btnGet4"
+                Grid.Row="3"
+                Grid.Column="3"
+                Width="52"
+                Height="35"
+                Margin="0,128,136,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Background="{x:Null}"
+                Click="btnGet1_Click"
+                Content="#4"
+                Tag="4" />
+        <Button x:Name="btnGet5"
+                Grid.Row="3"
+                Grid.Column="3"
+                Width="43"
+                Height="35"
+                Margin="0,128,88,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Background="{x:Null}"
+                Click="btnGet1_Click"
+                Content="#5"
+                Tag="5" />
+        <Button x:Name="btnGet6"
+                Grid.Row="3"
+                Grid.Column="3"
+                Width="51"
+                Height="35"
+                Margin="0,128,33,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                Background="{x:Null}"
+                Click="btnGet1_Click"
+                Content="#6"
+                Tag="6" />
+        <Button x:Name="btnRefund"
+                Grid.Row="3"
+                Grid.Column="3"
+                Width="179"
+                Height="33"
+                Margin="0,250,20,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                BorderThickness="3"
+                Click="btnRefund_Click"
+                Content="REFUND"
+                FontSize="13"
+                FontWeight="Bold"
+                OpacityMask="White">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="1" Color="White" />
+                    <GradientStop Offset="0" Color="#FF767676" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="btnMaintenance"
+                Grid.Row="3"
+                Grid.Column="3"
+                Width="179"
+                Height="33"
+                Margin="0,328,20,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                BorderThickness="3"
+                Click="btnMaintenance_Click"
+                Content="MAINTENANCE"
+                FontSize="13"
+                FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="1" Color="White" />
+                    <GradientStop Offset="0" Color="#FF4F4F4F" />
+                    <GradientStop Offset="0.16" Color="#FF6B6B6B" />
+                    <GradientStop Offset="0.014" Color="#FF6B6B6B" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image x:Name="imgRelease"
+               Grid.Row="3"
+               Grid.Column="3"
+               Width="142"
+               Height="178"
+               Margin="0,0,38,59"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Bottom"
+               Cursor="Hand"
+               ImageFailed="imgRelease_ImageFailed"
+               MouseDown="imgRelease_MouseDown"
+               Stretch="Fill" />
+        <Button x:Name="btnBuy"
+                Grid.Row="3"
+                Grid.Column="3"
+                Width="179"
+                Height="33"
+                Margin="0,289,20,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                BorderThickness="3"
+                Click="btnBuy_Click"
+                Content="BUY NOW"
+                FontSize="13"
+                FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="1" Color="White" />
+                    <GradientStop Offset="0.014" Color="#FF585858" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button1"
+                Grid.Row="3"
+                Grid.Column="3"
+                Width="63"
+                Height="25"
+                Margin="0,213,22,0"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Top"
+                BorderThickness="3"
+                FontSize="13"
+                FontWeight="Bold"
+                OpacityMask="White">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Offset="0" Color="Black" />
+                    <GradientStop Offset="1" Color="White" />
+                    <GradientStop Offset="0" Color="#FF767676" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Rectangle Grid.Row="3"
+                   Grid.Column="3"
+                   Width="87"
+                   Height="32"
+                   Margin="0,213,110,0"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Top"
+                   Fill="#FFF7EBEB"
+                   RadiusX="10"
+                   RadiusY="10"
+                   Stroke="Black" />
+        <Rectangle Grid.Row="3"
+                   Grid.Column="3"
+                   Width="73"
+                   Height="28"
+                   Margin="0,215,119,0"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Top"
+                   Fill="#FFA09898"
+                   RadiusX="5"
+                   RadiusY="5"
+                   Stroke="Black" />
+        <TextBlock Grid.Row="3"
+                   Grid.Column="3"
+                   Width="76"
+                   Height="31"
+                   Margin="117,216,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   DataContext="{Binding}"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   Foreground="#FFF9F9F9"
+                   Text="Notes-&gt;"
+                   TextWrapping="Wrap" />
+        <Label x:Name="label2"
+               Grid.Row="3"
+               Grid.Column="3"
+               Width="47"
+               Height="9"
+               Margin="232,222,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Background="Black" />
+
+
+
+
+
+    </Grid>
+</Window>

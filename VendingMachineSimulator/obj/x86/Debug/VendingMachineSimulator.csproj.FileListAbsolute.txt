@@ -1,0 +1,128 @@
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.exe
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.pdb
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.baml
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.g.cs
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\App.g.cs
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator_MarkupCompile.cache
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.g.resources
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.Properties.Resources.resources
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\ResGen.read.1.tlog
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\ResGen.write.1.tlog
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.exe
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.pdb
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.baml
+C:\Work\Current\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.g.cs
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.exe
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.pdb
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.exe
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.pdb
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.baml
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.baml
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.g.cs
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.g.cs
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\App.g.cs
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator_MarkupCompile.cache
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.g.resources
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.Properties.Resources.resources
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.csproj.GenerateResource.Cache
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\Password.baml
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\Password.g.cs
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.exe
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.pdb
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.exe
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.pdb
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.baml
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.baml
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\Password.baml
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.g.cs
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.g.cs
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\Password.g.cs
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\App.g.cs
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator_MarkupCompile.cache
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.g.resources
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.Properties.Resources.resources
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\ResGen.read.1.tlog
+E:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\ResGen.write.1.tlog
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.exe
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.pdb
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.exe
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.pdb
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.baml
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.baml
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\Password.baml
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.g.cs
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.g.cs
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\Password.g.cs
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\App.g.cs
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator_MarkupCompile.cache
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.g.resources
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.Properties.Resources.resources
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.csproj.GenerateResource.Cache
+F:\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator_Content.g.cs
+C:\Users\RAJ\Desktop\VendingMachine (1)\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator_Content.g.cs
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.exe
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.pdb
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.exe
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.pdb
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.baml
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.baml
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\Password.baml
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.g.cs
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.g.cs
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\Password.g.cs
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\App.g.cs
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator_Content.g.cs
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator_MarkupCompile.cache
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.g.resources
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.Properties.Resources.resources
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.csproj.GenerateResource.Cache
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.exe.manifest
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.application
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.exe.manifest
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.application
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.exe
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.pdb
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.exe.manifest
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.application
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.exe
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.pdb
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.baml
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.baml
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\Password.baml
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.g.cs
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.g.cs
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\Password.g.cs
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\App.g.cs
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator_Content.g.cs
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator_MarkupCompile.cache
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.g.resources
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.Properties.Resources.resources
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.csproj.GenerateResource.Cache
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.exe.manifest
+F:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.application
+E:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.exe
+E:\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.pdb
+C:\Users\RAJ\Desktop\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.csprojResolveAssemblyReference.cache
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.exe
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.exe.manifest
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.application
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.csprojResolveAssemblyReference.cache
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.baml
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.baml
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MaintenanceWindow.g.cs
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\MainWindow.g.cs
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\App.g.cs
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator_Content.g.cs
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator_MarkupCompile.cache
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.g.resources
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.Properties.Resources.resources
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.csproj.GenerateResource.Cache
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.exe.manifest
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.application
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.exe
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.pdb
+C:\Users\RAJ\Desktop\Projects\Simulator\VendingMachine\src\VendingMachineSimulator\bin\Debug\VendingMachineSimulator.pdb
+C:\Users\RAJ\Desktop\GitHub\VendingMachine\SourceCode\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.exe
+C:\Users\RAJ\Desktop\GitHub\VendingMachine\SourceCode\VendingMachineSimulator\obj\x86\Debug\VendingMachineSimulator.pdb
